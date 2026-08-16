@@ -49,13 +49,3 @@ def extract_playlist_videos(playlist_url: str) -> list[str]:
             )
 
     return videos
-
-
-# # Example
-# url = "https://www.youtube.com/watch?v=ccHcPhVBuuU&list=PLHJcMjLqJzkzHcKKd6p7BAfejlTpaozlv"
-
-# videos = extract_playlist_videos(url)
-
-# print(f"Found {len(videos)} videos")
-
-# print(videos[:5])
